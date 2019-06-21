@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Sesja The Race Game</title>
+        <meta name="viewpoint" content="width=device-width, initial-scale=1">
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="css/styles.css" href="https://fonts.googleapis.com/css?family=VT323&display=swap" rel="stylesheet">
+
+        
+    </head>
+    
+    <body>
+        
+                     <!--        menu-->
+   <nav class="navbar navbar-inverse" role="navigation">  
+  <div class="container-fluid">
+    <!-- Grupowanie "marki" i przycisku rozwijania mobilnego menu -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Rozwiń nawigację</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class= "navbar-brand" href="index.html">Sesja The Race</a>
+    </div>
+
+    <!-- Grupowanie elementów menu w celu lepszego wyświetlania na urządzeniach moblinych -->
+   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+<!--        <li class="active"><a href="index.html">Strona Główna</a></li>-->
+        <li><a href="ranking.html">Ranking</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">O grze <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="instrukcja.html">Jak grać</a></li>
+            <li><a href="wsparcie.html">Wsparcie</a></li>
+            <li><a href="tworcy.html">Twórcy</a></li>
+          </ul>
+        </li>
+      </ul>
+      </form>
+            
+          </ul>
+        </li>
+      </ul>
+
+      </form>
+
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+            <!--            inormacje o portalu-->
+            <article>
+            
+                <div class="container">
+                
+                    <div class="row text-center">
+                        
+                        <div class="col=sm-8 col-sm=offset-2 col-xs-10 col-xs-offset-1"></div>
+                            <header>
+                        
+                                <h1>Sesja The Race</h1>
+                            
+                            </header>
+                            
+                            <h4>
+                                Zmierz się z sesją, przebrnij przez niebezpieczne życie studenta, zwalcz przeciwności losu i wygraj ze swoją sesją.
+                            </h4>
+                            <footer>
+                        
+                                <h2><i>Pokonaj sesję</i></h2> </br>
+                        
+                            </footer>
+                        
+                    
+                        
+                    
+                    </div>
+                
+                </div>
+            
+            </article>
+
+            
+            <!--            kategorie tekstów-->
+            <article>
+            
+                <div class ="container">
+                
+                    <div class="row text-center">
+                    
+                        <section class="col-xs-12 col-sm-6 col-md-4">
+
+                            <header>
+                            
+                                <h2>News</h2>
+                                
+                            </header>
+                            <p>
+                            
+                                Aktualnie gra dostępna jest w wersji Afla w wersji 0.5 </br>
+                        prace nad kolejną wersją trwają.
+                            
+                            </p>
+                        
+                        </section>
+                        <section class="col-xs-12 col-sm-6 col-md-4">
+                        
+
+                            <header>
+                            
+                                <h2>Grafika</h2>
+                            
+                            </header>
+                            <p>
+                            
+                              Razem wspinamy się na wyżyny pixelartu. Gra jest tworzona przy współpracy z wibytnymi grafikami.
+                                                            
+                            </p>
+                        </section>
+                        <section class="col-xs-12 col-sm-6 col-md-4">
+                        
+
+                            <header>
+                            
+                                <h2>Mechanika</h2>
+                            
+                            </header>
+                            <p>
+                            
+                                Gra wykorzystuje nowy silnik SWPW Engine. Rozgrywka wykorzystuje system turowy.
+                                                            
+                            </p>
+                        </section>
+                        <div class="clearfix visible-md-block"></div>
+                        <section class="col-xs-12 col-sm-6 col-md-4">
+                        
+
+                            <header>
+                            
+                                <h2>Karty zdarzeń</h2>
+                            
+                            </header>
+                            <p>
+                            
+                                W grze wykorzystujemy karty zdarzeń, dzięki nim otrzymaliśmy eventy, które pomogą lub utrudnią</br> przejście gry.    
+                                                            
+                            </p>
+                        </section>
+                        <section class="col-xs-12 col-sm-6 col-md-4">
+                        
+
+                            <header>
+                            
+                                <h2>Twórcy</h2>
+                            
+                            </header>
+                            <p>
+                            
+                                Twórcami Sesja The Race są wybytni studęci Szkoły Wyższej im. Pawła Włodkowica w Płocku.
+                                                            
+                            </p>
+                        </section>
+                        <section class="col-xs-12 col-sm-6 col-md-4">
+                        
+
+                            <header>
+                            
+                                <h2>Alpha</h2>
+                            
+                            </header>
+                            <p>
+                            
+                                Poszukujemy testerów do wykonywania testów regresji, którzy pomogą w wykryciu błędów rozgrywki w dalszym rozwoju gry.
+                                                            
+                            </p>
+                        </section>
+                        
+                        
+                    </div>                    
+                    
+                </div>
+            
+            </article>
+            
+            
+            <!--            grafiki-->
+                
+                      <div id="carousel-example-generic2" class="carousel slide">
+                      <!-- Wskaźniki w postaci kropek -->
+                      <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic2" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic2" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic2" data-slide-to="2"></li>
+                      </ol>
+
+                      <!-- Slajdy -->
+                      <div class="carousel-inner">
+                        <div class="item active">
+                            <center><img src="img/p1.jpg" alt=""></center>
+                          <!-- Opis slajdu -->
+
+                        </div>
+
+                        <div class="item">
+                            <center><img src="img/kar.png" alt=""></center>
+                          <!-- Opis slajdu -->
+
+                        </div>
+
+                        <div class="item">
+                            <center><img src="img/pos.png" alt=""></center>
+                          <!-- Opis slajdu -->
+                          <div class="carousel-caption">
+
+                        </div>
+
+                      </div>
+
+                      <!-- Strzałki do przewijania -->
+                      <a class="left carousel-control" href="#carousel-example-generic2" data-slide="prev">
+                        <span class="icon-prev"></span>
+                      </a>
+                      <a class="right carousel-control" href="#carousel-example-generic2" data-slide="next">
+                        <span class="icon-next"></span>
+                      </a>
+                    </div>
+                <!--            formularz kontaktowy-->
+                  
+                          <section> 
+                    
+                        <div class="container">
+                        
+                            <h2 class="text-center"><b>Kontakt</b></h2>
+                            <h4 class="text-center"><b><em>Czekamy na Twoją opinię</em></b></h4> 
+                            <div class="row">
+                            
+                                <section class="col-sm-12 col-md-4">
+                                
+
+                                    <p><span class="hlyphicon glyphicon-envelope"></span><b>sesjatherace@teleinf.usite.pl</b></p>
+                                
+                                </section>
+                    <section class="col-sm-12 col-md-8">
+                                                        
+                            <form method="post" action="...">
+                        
+                                <div class="row">
+                                
+                                    <div class="col-xs-12 col-sm-6 form-group">
+                                    
+                                        <label class="sr-only" for="imie">Podaj imię</label> <!--tylko dla czytników-->
+                                        <input class="form-control" type="text" id="imie" name="imie" placeholder="Imię" required>
+                                    
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 form-group">
+                                    
+                                        <label class="sr-only" for="email">Podaj adres e-mail</label> <!--tylko dla czytników-->
+                                        <input class="form-control" type="email" id="email" name="email" placeholder="e-mail" required>
+                                    
+                                    </div>
+                                    <div class="col-xs-12 form-group">
+                                    
+                                        <label class="sr-only" for="komentarz">Wpisz swoje uwgi i komentarze</label> <!--tylko dla czytników-->
+                                        <textarea class="form-control" id="komentarz" name="komentarz" rows="5" placeholder="Uwagi i komentarze" required></textarea>
+                                    
+                                    </div>
+                                    <div class="row">
+                                    
+                                        <div class="col-xs-12 form-group">
+                                        
+                                            <button class="btn pull-right"
+                                            type="submit">Prześlij</button>
+                                        
+                                        </div>
+                                    
+                                    </div>
+                                
+                                </div>
+                        
+                            </form>
+                                
+                    </section>
+                            
+                            </div>
+                        </div>
+                    
+                    </section>
+            
+            
+
+            <!--            stopka-->
+                    <footer>
+            
+                        <div class="container">
+                        
+                            <h4 class="text-center">Sesje The Race &copy;2019</h4>
+                        
+                        </div>
+            
+                    </footer>    
+        
+        
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        
+    </body>
+   
+</html>
