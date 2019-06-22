@@ -1,0 +1,159 @@
+
+
+body {
+    background-image: url(../img/tlo5.jpg);
+    margin: 10;
+    font-family: 'VT323', monospace;
+    font-size: 18px;
+    
+    
+}
+
+
+div#wrapper {
+    background: #F5F5F5;
+    margin: 0 auto;
+    width: 400px;
+    height: 100%;
+    border-radius: 2px;
+    box-shadow: 2px 2px 10px #D1D1D1;
+}
+
+header{
+    padding-bottom: 40px;
+    border-bottom-style: solid;
+    border-color: #EAEAEA;
+    border-width: 1px;
+}
+
+
+h1{
+    color:#2B2B2B;
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    margin: 0;
+    text-align: center;
+}
+
+h2{
+    color:#2B2B2B;
+    font-size: 22px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0;
+    text-align: center;
+}
+h4{
+    font-size: :22px; 
+}
+
+#top_big{
+   padding-top: 40px;
+}
+
+#top{
+    display: block;
+    padding-top: 15px;
+    margin: auto;
+    width: 35px;
+    height: 35px;
+}
+
+.boxFace{
+    float: left;
+    padding: 20px;
+}
+
+
+
+
+#faceImage{
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-color: #C2C2C2;
+    border-width: 1px;
+    border-radius: 25px;
+    position:absolute;
+    z-index: 1;
+}
+
+#facePos{
+    background-color: #00FF95;
+    border-radius: 25px;
+    font-size: 10px;
+    position: absolute;
+    z-index: 2;
+    width: 20px;
+    height: 15px;
+    color: white;
+    margin-left: 40px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+#progressbar {
+  background-color: #D4D4D4;
+  border-radius: 8px; /* (height of inner div) / 2 + padding */
+  width: 200px;
+  margin-top: 10px;
+  margin-left: 95px;
+  float: left;
+  
+  
+}
+
+#progressbar > div {
+   background-color: orange;
+   width: 50%; /* Adjust with JavaScript */
+   height: 6px;
+   border-radius: 6px;
+}
+
+#name{
+    font-size: 15px;
+    margin-top: 26px;
+  margin-left: 55px;
+  float: left;
+}
+
+#score{
+    font-size: 10px;
+    margin-top: 10px;
+    margin-left: 262px;
+    float: left;
+}
+
+.starRating{
+    margin-left: 95px;
+    padding-top: 15px;
+    
+}
+
+#star{
+    padding-left: 40px;
+    padding-top: 15px;
+    margin: auto;
+    width: 35px;
+    height: 35px;
+}
+
+#points{
+    font-size: 24px;
+    text-align: center;
+    padding-left: 210px;
+}
+
+#pointsOutOfBox{
+    font-size: 24px;
+    text-align: center;
+    padding-left: 210px;
+    margin-top: 25px;
+}
+main{
+    border-bottom-style: solid;
+    border-color: #EAEAEA;
+    border-width: 1px;
+    height: 105px;
+}
